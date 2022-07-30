@@ -1,0 +1,85 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.bg-color{
+    background-color: rgb(120, 24, 175);
+}
+
+/* Carousel Item  */
+.carousel-img {
+    filter: brightness(50%);
+}
+
+.e-larning-carousel-caption {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 15%;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .join {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+
+    .e-larning-carousel-caption h1 {
+        font-size: x-large;
+    }
+
+    .e-larning-carousel-caption p {
+        font-size: small;
+    }
+
+    .e-larning-carousel-caption p>a {
+        font-size: small;
+    }
+
+    .join {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    .e-larning-carousel-caption h1 {
+        font-size: 80%;
+        margin-bottom: 3px;
+    }
+
+    .e-larning-carousel-caption p {
+        font-size: 45%;
+        margin-bottom: 3px;
+    }
+
+    .e-larning-carousel-caption p>a {
+        font-size: 70%;
+        padding: 3px 5px;
+    }
+
+    .join {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
